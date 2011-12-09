@@ -1,0 +1,75 @@
+﻿#listingNav
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#listingNavContainer
+{
+	width: auto;
+	max-width: 980px;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+.listingButton
+{
+	vertical-align: middle;
+	width: 250px;
+	text-align: center;
+	height: 30px;
+	clear: none;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.listingEntry
+{
+
+	position: relative;
+	margin: auto;
+	width: 100%;
+	max-width: 700px;
+	min-width: 300px;
+}
+
+.listingName
+{
+	padding-top: 30px;
+}
+
+.listingLogo
+{
+	width: 100px;
+	padding: 0px;
+	padding-right: 20px;
+	margin: 0px;
+}
+
+.listingPager
+{
+	text-align: left;
+	position: relative;
+	margin: auto;
+	padding-top: 50px;
+	width: 100%;
+	max-width: 700px;
+	min-width: 300px;
+}
+
+.listingTitle
+{
+	text-align: center;
+	position: relative;
+	margin: auto;
+	width: 100%;
+	max-width: 700px;
+	min-width: 300px;
+}
+.fieldHeader
+{
+	margin-right: 10px;
+}

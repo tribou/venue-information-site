@@ -1,0 +1,50 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/desktop/masterPages/home.master" AutoEventWireup="false" CodeFile="listings.master.vb" Inherits="desktop_masterPages_listings" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link href="../cssFiles/listingStyles.css" rel="stylesheet" type="text/css" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="mainContent" Runat="Server">
+
+    
+<asp:Menu ID="menuCategories" runat="server" Orientation="Horizontal" 
+        CssClass="menuTabs">
+    <DynamicHoverStyle CssClass="DynamicHoverStyle" />
+    <DynamicMenuItemStyle CssClass="DynamicMenuItemStyle" />
+    <Items>
+        <asp:MenuItem Text="Shopping" Value="0" Selected="True"></asp:MenuItem>
+        <asp:MenuItem Text="Food" Value="1"></asp:MenuItem>
+        <asp:MenuItem Text="Entertainment" Value="2"></asp:MenuItem>
+    </Items>
+    <StaticHoverStyle CssClass="StaticHoverStyle" />
+    <StaticMenuItemStyle CssClass="tab" />
+    <StaticSelectedStyle CssClass="selectedTab" />
+</asp:Menu>
+
+
+<asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="0">
+
+    <asp:View ID="vwShopping" runat="server">
+       
+
+
+        Contents of the Shopping Tab
+
+
+       
+    </asp:View>
+    <asp:View ID="vwFood" runat="server">
+    Contents of the Food Tab
+    </asp:View>
+    <asp:View ID="vwEntertainment" runat="server">
+    Contents of the Entertainment Tab
+    </asp:View>
+
+    
+
+    </asp:MultiView>
+
+
+
+</asp:Content>
+
+

@@ -1,0 +1,56 @@
+﻿.StaticMenuItemStyle, .StaticMenuItemStyle a
+{
+	color: #707070;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 2px;
+}
+
+.StaticHoverStyle, .StaticSelectedStyle
+{
+	background-color: #c1e4ce;
+}
+
+.DynamicMenuItemStyle
+{
+	font-size: 14px;
+	color: #707070;
+	background-color: #cccccc;
+	padding: 4px 2px 4px 3px;
+}
+
+.DynamicHoverStyle
+{
+	background-color: #707070;
+	color: White;
+}
+
+.DynamicHoverStyle a
+{
+	text-decoration: none;
+}
+
+.menuTabs
+{
+	position: relative;
+	top: 1px;
+	left: 10px;
+}
+
+.tab
+{
+	border: solid 1px black;
+	border-bottom: none;
+	padding: 0px 10px;
+	background-color: #eeeeee;
+}
+
+.selectedTab
+{
+	border: Solid 1px Black;
+	border-bottom: Solid 1px White;
+	padding: 0px 10px;
+	background-color: White;
+}
+

@@ -1,0 +1,94 @@
+﻿
+
+#outerwrapper
+{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+}
+
+#banner
+{
+
+	background-color: #FFFFFF;
+}
+
+#loginBanner
+{
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#navigation
+{
+	
+	background-color: #FFFFFF;
+}
+
+.navigationButton
+{
+
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.navigationButton:hover
+{
+    background-color: #F5F5F5;
+}
+
+#welcome 
+{
+
+}
+
+#boxOne
+{
+
+}
+
+#boxTwo 
+{
+
+}
+
+#boxThree 
+{
+
+}
+
+#boxContainer 
+{
+
+}
+
+#footer 
+{
+
+}
+
+#leftFooter
+{
+
+}
+
+#rightFooter
+{
+
+}
+
+#searchBar
+{
+
+}
+
+a:link, a:hover, a:visited, a:active
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+.linkUnderline
+{
+	text-decoration: underline;
+}

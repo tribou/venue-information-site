@@ -1,0 +1,135 @@
+﻿
+
+#outerwrapper
+{
+	padding: 0px;
+	max-width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 480px;
+}
+
+#banner
+{
+	height: 40px;
+	width: 100%;
+
+}
+
+#loginBanner
+{
+	height: 30px;
+	width: 200px;
+	float: right;
+	vertical-align: middle;
+	text-align: center;
+	clear: none;
+	padding-top: 10px;
+	font-size: small;
+
+}
+
+#navigation
+{
+	width: 100%;
+	height: 40px;
+
+}
+
+.navigationButton
+{
+	vertical-align: middle;
+	width: 120px;
+	text-align: center;
+	height: 30px;
+	float: left;
+	clear: none;
+	padding-top: 10px;
+
+}
+
+#welcome 
+{
+	width:100%;
+	height:200px;
+	text-align:center;
+}
+
+#boxOne
+{
+	width: 33%;
+	height: auto;
+	margin-left: auto;
+	float: left;
+	clear: none;
+	text-align:center;
+}
+
+#boxTwo 
+{
+	width: 33%;
+	height: auto;
+	float: left;
+	clear: none;
+	text-align:center;
+}
+
+#boxThree 
+{
+	width: 33%;
+	height: auto;
+	margin-right:auto;
+	float: left;
+	clear: none;
+	text-align:center;
+}
+
+#boxContainer 
+{
+	width:100%;
+	min-height: 160px;
+	margin: 0 auto;
+}
+
+#footer 
+{
+	width: 100%;
+	height: 120px;
+	float: left;
+}
+
+#leftFooter
+{
+	width: 30%;
+	height: 100%;
+	clear: none;
+	float: left;
+	padding-left: 20%;
+}
+
+#rightFooter
+{
+	width: 30%;
+	height: 100%;
+	clear: none;
+	float: left;
+	padding-left: 20%;
+}
+
+#searchBar
+{
+	width: 240px;
+	height: 30px;
+	float: right;
+	padding-top: 10px;
+}
+
+a:link
+{
+
+}
+.tableStyle1
+{
+	vertical-align: top;
+	max-width: 200px;
+}

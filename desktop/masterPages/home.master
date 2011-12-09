@@ -1,0 +1,112 @@
+﻿<%@ Master Language="VB" CodeFile="home.master.vb" Inherits="masterPages_home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+   <link href="../cssFiles/homeLayout.css" rel="stylesheet" type="text/css" />
+    <link href="../cssFiles/plainTheme.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            font-size: smaller;
+        }
+    </style>
+    
+</head>
+
+
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div id="outerwrapper">
+
+
+    <%-- _______________________________________________________________________________________ --%>
+    <%--top bar with login--%>
+    <div id="banner">
+    
+            <div id="loginBanner">
+             <asp:LoginStatus ID="LoginStatus1" runat="server" />
+            </div>
+
+ &nbsp;</div>
+
+
+    <%-- _______________________________________________________________________________________ --%>    <%-- navigation bar --%>
+    <div id="navigation">
+    
+    <div id="homeButton" onclick="document.location='../desktop/Home.aspx'" class="navigationButton">
+    <asp:LinkButton ID="btnHome" runat="server">HOME</asp:LinkButton>
+    </div>
+    <div id="listingsButton" class="navigationButton">
+    <asp:LinkButton ID="btnListings" runat="server">LISTINGS</asp:LinkButton>
+    </div>
+    <div id="forumButton" class="navigationButton">
+    <asp:LinkButton ID="btnForum" runat="server" Visible="False">FORUM</asp:LinkButton>
+    </div>
+    <div id="aboutButton" class="navigationButton">
+    <asp:LinkButton ID="btnAbout" runat="server" Visible="False">ABOUT</asp:LinkButton>
+    </div>
+    <div id="searchBar">
+        <asp:TextBox ID="txtSearch" runat="server" onclick="if (this.value == 'Search') {this.value=''; this.focus();}" 
+        onblur="if (this.value == ''){this.value = 'Search';}" 
+            Width="220px">Search</asp:TextBox>
+    </div>
+
+
+        
+
+
+        </div>
+        <asp:ContentPlaceHolder id="mainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+        
+
+
+        
+
+    
+        <table style="position:relative; margin-bottom: 0px; width: 100%; font-size:smaller;">
+            <tr>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="4" style="text-align: center">
+                    <span class="style2">Website Copyright 2011&nbsp; |&nbsp; </span>
+                    <asp:LinkButton ID="lnkAdmin" runat="server" CssClass="style2" 
+                        Font-Size="Smaller" ForeColor="Blue">Admin</asp:LinkButton>
+                </td>
+            </tr>
+        </table>
+        
+        
+
+
+        
+
+    
+    </div>
+    </div>
+    </form>
+</body>
+</html>
